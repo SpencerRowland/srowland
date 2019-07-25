@@ -1,0 +1,15 @@
+.main {
+    padding: 2rem 10rem 2rem 5rem;
+    min-height: 100vh;
+    max-width: 48rem;
+    background-color: #1a202c; 
+}
+
+.header {
+    padding-left: 15px;
+    padding-bottom: 4rem;
+    color: #edf2f7;
+    font-family: 'Homemade Apple', cursive;
+    font-weight: 400;
+    font-size: 25px;
+}
