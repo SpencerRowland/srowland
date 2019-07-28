@@ -1,10 +1,14 @@
 import React from "react"
 import BaseLayout from "../components/baseLayout"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
+import { Helmet } from "react-helmet"
 import Img from "gatsby-image"
 
-export default ({data}) => (
+const IndexPage = ({data}) => (
   <BaseLayout>
+    <Helmet>
+        <title>Spencer Rowland</title>
+    </Helmet>
     <div className="bio">
       <h1>Problem solver...preferrably with code</h1>
       <Img fixed={data.headshot.childImageSharp.fixed} style={{float: 'left', margin: '.25rem 1.25rem .5rem 0'}} />
@@ -21,17 +25,17 @@ export default ({data}) => (
       <ul>
         <li>
           <h3>
-            <a href="#">Escape Kit</a>
+            <Link to="/escapekit">Escape Kit</Link>
             <span>Created in 2018 and currently active</span>
           </h3>
           <p>
-            Drip began with the mission to fix email capture and follow-up sequences. It grew to become a lightweight
-            marketing automation tool and later on a leading automation platform used by thousands of companies.
+            Escape Kit began with the mission to make a better digital waiver for the escape room industry.
+            It has grown to become an automated marketing tool used by escape room businesses across the country.
           </p>
         </li>
         <li>
           <h3>
-            <a href="#">AutomatedRE</a>
+            <Link to="/escapekit">AutomatedRE</Link>
             <span>Created in 2018 and currently active</span>
           </h3>
           <p>
@@ -41,7 +45,7 @@ export default ({data}) => (
         </li>
         <li>
           <h3>
-            <a href="#">Escape Experience - Nashville</a>
+            <Link to="/escapekit">Escape Experience - Nashville</Link>
             <span>Co-founded in 2015 and sold in 2019</span>
           </h3>
           <p>
@@ -59,6 +63,8 @@ export default ({data}) => (
     </div>
   </BaseLayout>
 )
+
+export default IndexPage
 
 export const query = graphql`
   query {

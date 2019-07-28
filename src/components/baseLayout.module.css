@@ -1,3 +1,13 @@
+.baseBody {
+    margin: 0;
+    background-color: #1a202c;
+    background-image: url(../images/forrest-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 .main {
     padding: 2rem 10rem 2rem 5rem;
     min-height: 100vh;

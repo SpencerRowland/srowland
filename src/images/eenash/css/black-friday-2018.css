@@ -1,0 +1,152 @@
+
+.lp-page-cover.bf-2018 {
+    background-image: url(black-friday-2018/black-friday-cover-image.png);
+		height: unset;
+}
+
+.lp-page-cover.bf-2018 .lp-overlay {
+    background: unset;
+}
+
+.lp-page-cover.bf-2018 img {
+    max-width: 100%;
+}
+
+.lp-page-cover.bf-2018 .lp-logo {
+		margin: 0px 15px 30px !important;
+}
+
+.teambuilding-about.bf-2018 {
+   border-top: 3px solid #ed1c24;
+}
+
+.teambuilding-about.bf-2018 .describe-what {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.teambuilding-about.bf-2018 .promo-video {
+    padding: 15px 0;
+		background: unset;
+}
+
+.teambuilding-about.bf-2018 .promo-video img {
+    max-width: 100%;
+}
+
+.lp-reviews-list.bf-2018 .lp-reviews-content {
+		margin: 0;
+		width: 33%;
+}
+
+@media (max-width: 760px) {
+	.lp-reviews-list.bf-2018 .lp-reviews-content {
+			margin-right: 0;
+			width: 100%;
+			display: block;
+			max-width: 450px;
+			margin: 0 auto 20px auto;
+			padding: 0 !important;
+	}
+}
+
+.lp-reviews-list.bf-2018 .lp-reviews-content:not(:last-child) {
+		padding-right: 15px;
+}
+
+.lp-reviews-list.bf-2018 .lp-reviews-cont {
+		padding: 15px;
+}
+
+.lp-reviews-list.bf-2018 .lp-reviews-text img {
+		max-width: 100%;
+		margin-bottom: 10px;
+}
+
+
+.bf-other-deals {
+		padding: 0px 5px 0px 5px;
+		max-width: 500px;
+		margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+	.bf-other-deals:not(:last-child) {
+			margin-bottom: 20px;
+	}
+}
+
+.bf-other-deals .inner-container {
+    font-size: 16px;
+    line-height: 1.7;
+    position: relative;
+    padding: 15px;
+    background: #fff;
+    font-weight: 400;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.07);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.07);
+    color: #4F5E6D;
+    border-radius: 3px;
+    border: 1px solid #d9dce0;
+}
+
+.bf-other-deals h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 23px;
+    line-height: 30px;
+		font-size: 25px;
+}
+
+
+
+.bf-other-deals img {
+		max-width: 100%	
+}
+
+.lp-book-now-row.bf-2018 {
+		border-top: 1px solid #000;
+    border-bottom: unset;
+}
+
+.bf-terms {
+		padding: 40px 15px 0 15px;
+    max-width: 670px;
+    margin: 0 auto;
+}
+
+.bf-2018-hide-deal {
+	display: none;
+}
+
+.expired-container.expired {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000c7;
+}
+
+.expired-text {
+	display: none;	
+}
+
+.expired-container.expired .expired-text {
+		display: block;
+    color: white;
+    text-align: center;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+}
+
+	

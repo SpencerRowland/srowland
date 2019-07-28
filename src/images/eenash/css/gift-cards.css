@@ -1,0 +1,208 @@
+.holiday-page-cover {
+    background-image: url(backgrounds/holiday-bg.png);
+    border-bottom: 5px solid #ed1c24;
+}
+
+.teambuilding-page-overlay {
+    background: rgba(0,0,0,.5);
+}
+
+.teambuilding-image-text img {
+    max-width: 350px !important;
+    padding-top: 25px;
+}
+
+@media (max-width: 450px) {
+    .teambuilding-image-text img {
+        max-width: 80% !important;
+    }
+}
+
+@media (max-width: 705px) {
+    .teambuilding-image-text img {
+        padding-bottom: 50px;
+    }
+}
+
+.teambuilding-text-1 {
+    padding-top: 75px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: #ed1c24;
+}
+
+.teambuilding-text-2 {
+    padding-top: 10px;
+}
+
+@media (max-width: 705px) {
+    .teambuilding-text-2 {
+        padding-bottom: 0px;
+    }
+}
+
+@media (max-width: 415px) {
+    .teambuilding-text-2 {
+        padding-top: 0px !important;
+    }
+}
+
+.teambuilding-contact-us p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.black-friday-text {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: #ed1c24;
+}
+
+.black-friday-header {
+    font-size: 35px !important;
+}
+
+.terms {
+    font-weight: bold;
+}
+
+.terms-text {
+    font-size: 16px !important;
+}
+
+.teambuilding-contact-us h2 {
+    text-transform: none;
+}
+
+.holiday-deals {
+    padding: 40px 40px 40px 40px;
+    margin: 20px auto 40px auto;
+    box-shadow: 0 10px 30px 0 rgba(25, 79, 155, 0.37);
+    border-radius: 4px;
+    background: #fff;
+    max-width: 750px;
+}
+
+.shopify-buy-frame {
+    margin: 0 auto;
+    max-width: 500px !important;
+}
+
+.teambuilding-gradient {
+    background: linear-gradient(rgba(255, 255, 255, 0.71), rgba(255, 0, 0, 0)), url(backgrounds/black-friday-bg.png);
+}
+
+@media (max-width: 500px) {
+    .title-area {
+        font-size: 20px;
+    }
+    .teambuilding-contact-us p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 500px) {
+    .holiday-deals {
+        padding: 20px 20px 20px 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+.counter {
+  min-height: 150px;
+  text-align: center;
+  border-bottom: 1px solid #000;
+}
+
+.counter-bg {
+    background: #ed1c24;
+}
+
+.counter h3 {
+  color: #000;
+  font-size: 25px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.counter h2 {
+  color: #000;
+  font-size: 20px;
+  padding-top: 0px;
+  margin-bottom: 30px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 0px;
+  font-weight: normal;
+}
+
+#countdown {
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+#countdown ul {
+    float: left;
+    list-style-type: none;
+}
+
+.days-container {
+    margin-left: 0px !important;    
+}
+
+.count-container {
+    padding: 10px;
+    margin-left: 10px;
+    background: #0e0e0e;
+    min-width: 110px;
+    border-radius: 4px;
+    font-size: 20px;
+    border: 3px solid #000000;
+}
+
+.counter-bottom-row, .counter-top-row {
+    float: left;
+}
+
+@media (max-width: 510px) {
+    .counter-bottom-row, .counter-top-row {
+        float: none;
+    }
+    .minutes-container {
+        margin-left: 0px !important;    
+    }
+}
+
+.black-friday-button {
+    color: #ed1c24 !important;
+    font-family: 'Oswald' !important;
+    background-color: #fff !important;
+    background-image: linear-gradient(180deg, #fff, #e8e8e8) !important;
+    box-shadow: inset 0 0 0 0px #821216 !important;
+    border: none !important;
+    border-radius: 4px !important;
+    padding: 2px 10px !important;
+    width: 100px !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+    font-size: 13px !important;
+    margin-left: 10px !important;
+    font-size: 14px !important;
+}
+
+.black-friday-button:hover {
+    box-shadow: inset 0 0 0 0px #882428, 0 5px 15px #4e1d1f !important;
+}
+
+.bf-button-row {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
