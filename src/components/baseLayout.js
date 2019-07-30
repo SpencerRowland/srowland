@@ -1,6 +1,12 @@
 import React from "react"
+import { Link } from "gatsby"
 import { Helmet } from "react-helmet"
 import BaseLayoutStyles from "./baseLayout.module.css"
+
+const headerLinkStyle = {
+  color: "inherit",
+  border: "none",
+}
 
 const BaseLayout = ({children}) => (
   <div className={BaseLayoutStyles.main}>
@@ -8,19 +14,10 @@ const BaseLayout = ({children}) => (
       <body class="base-layout"></body>
     </Helmet>
     <header className={BaseLayoutStyles.header} role="banner">
-      Spencer Rowland
+      <Link style={headerLinkStyle} to="/">Spencer Rowland</Link>
     </header>
     {children}
   </div>
 )
 
 export default BaseLayout
-
-// export default ({ children }) => (
-//   <div className={BaseLayoutStyles.main}>
-//     <header className={BaseLayoutStyles.header} role="banner">
-//       Spencer Rowland
-//     </header>
-//     {children}
-//   </div>
-// )

@@ -10,14 +10,14 @@ const IndexPage = ({data}) => (
         <title>Spencer Rowland</title>
     </Helmet>
     <div className="bio">
-      <h1>Problem solver...preferrably with code</h1>
-      <Img fixed={data.headshot.childImageSharp.fixed} style={{float: 'left', margin: '.25rem 1.25rem .5rem 0'}} />
+      <h1>Problem solver...<br/>preferrably with code</h1>
+      <Img fixed={data.headshot.childImageSharp.fixed} className="headShot"/>
       <p>
         Hey, I'm Spencer Rowland, a full-stack developer. I fell in love with programming as an actuary when writing macros
-        in Excel and I've been building ever since. Filler sentence goes here.
+        in Excel and I've been building ever since. I primarily work with Python and Django.
       </p>
       <p>
-        My mission is to build things people love...whether that's on the internet or in the real world.
+        My mission is to build things people love to use...whether that's on the internet or in the real world.
       </p>
     </div>
     <div className="projects">
@@ -35,22 +35,24 @@ const IndexPage = ({data}) => (
         </li>
         <li>
           <h3>
-            <Link to="/escapekit">AutomatedRE</Link>
-            <span>Created in 2018 and currently active</span>
+            <Link to="/automatedre">AutomatedRE</Link>
+            <span>Created in 2017</span>
           </h3>
           <p>
-            Codetree was a solution borne out pain I experienced managing development tasks with GitHub issues
-            across multiple repositories.
+            AutomatedRE was a solution borne out of the pain of review colLection through TripAdvisor. Useing selenium
+            with headless chrome in Django, AutomatedRE pulls emails from a connected Mailchimp list and submits them to TripAdvisor
+            Review Express.
           </p>
         </li>
         <li>
           <h3>
-            <Link to="/escapekit">Escape Experience - Nashville</Link>
+            <a href="/eenash/home" target="_blank">Escape Experience - Nashville</a>
             <span>Co-founded in 2015 and sold in 2019</span>
           </h3>
           <p>
-            Codetree was a solution borne out pain I experienced managing development tasks with GitHub issues
-            across multiple repositories.
+            The website for my escape room business was my first project to see any type of real traffic. The business site has
+            changed after the sale but I have saved it here for posterity. Originally written in nothing but HTML, CSS and
+            a smattering of JavaScript and JQuery. Its current iteration is in React with the help of Gatsby.
           </p>
         </li>
       </ul>
@@ -58,7 +60,7 @@ const IndexPage = ({data}) => (
     <div className="contact">
       <h2>Get in touch</h2>
       <p>
-        Follow me on <a href="https://twitter.com/spencerowland" target="_blank" rel="noopener noreferrer">Twitter</a> or email me at spencer [at] spencerrowland.com.
+        Follow me on <a href="https://twitter.com/spencerowland" target="_blank" rel="noopener noreferrer">Twitter</a> or email me at sr [at] spencerrowland.com.
       </p>
     </div>
   </BaseLayout>
