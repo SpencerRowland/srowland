@@ -25,7 +25,7 @@ export default ({data}) => (
         <span>PostgreSQL</span>
         <span>JavaScript</span>
         <span>jQuery</span>
-        <span>AJAX</span>
+        <span>React</span>
         <span>SASS</span>
       </div>
     </div>

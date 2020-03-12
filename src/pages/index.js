@@ -14,7 +14,7 @@ const IndexPage = ({data}) => (
       <Img fixed={data.headshot.childImageSharp.fixed} className="headShot"/>
       <p>
         Hey, I'm Spencer Rowland, a full-stack developer. I fell in love with programming as an actuary when writing macros
-        in Excel and I've been building ever since. I primarily work with Python and Django.
+        in Excel and I've been building ever since. I primarily work with Python/Django and Javascript.
       </p>
       <p>
         My mission is to build things people love to use...whether that's on the internet or in the real world.
@@ -47,7 +47,7 @@ const IndexPage = ({data}) => (
         <li>
           <h3>
             <a href="/eenash/home" target="_blank">Escape Experience - Nashville</a>
-            <span>Co-founded in 2015 and sold in 2019</span>
+            <span>Co-founded in 2015</span>
           </h3>
           <p>
             The website for my escape room business was my first project to see any type of real traffic. The business site has
