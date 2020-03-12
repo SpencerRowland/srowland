@@ -1,8 +1,17 @@
-import React from "react"
+import React, {useEffect} from "react"
 
-export default () => (
-  <div>
-    <h1>Just testingx</h1>
-    <div dangerouslySetInnerHTML="<script type='text/javascript' src='https://staging.escapekit.co/lbwidget.js?lid=2zi3qzgb'></script>"></div>
-  </div>
-)
+export default function() {
+
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://staging.escapekit.co/lbwidget.js?lid=2zi3qzgb";
+    // script.onload = () => this.scriptLoaded();  
+    document.getElementById("testDiv").appendChild(script);
+  }, []);
+
+  return (
+    <div id="testDiv">
+      <h1>Just testingx</h1>
+    </div>
+  )
+}
