@@ -4,10 +4,10 @@ import { graphql, Link } from "gatsby"
 import { Helmet } from "react-helmet"
 import Img from "gatsby-image"
 
-const IndexPage = ({data}) => (
+export default ({data}) => (
   <BaseLayout>
     <Helmet>
-        <title>Spencer Test Rowland</title>
+        <title>Spencer Rowland</title>
     </Helmet>
     <div className="bio">
       <h1>Problem solver...<br/>preferrably with code</h1>
