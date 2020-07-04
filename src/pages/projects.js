@@ -66,8 +66,6 @@ export default ({data}) => (
   </BaseLayout>
 )
 
-export default IndexPage
-
 export const query = graphql`
   query {
     headshot: file(relativePath: { eq: "headshot.png" }) {
