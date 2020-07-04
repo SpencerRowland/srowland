@@ -39,7 +39,7 @@ const IndexPage = ({data}) => (
             <span>Created in 2017</span>
           </h3>
           <p>
-            AutomatedRE was a solution borne out of the pain of review collection through TripAdvisor. Useing selenium
+            AutomatedRE was a solution borne out of the pain of review collection through TripAdvisor. Using selenium
             with headless chrome in Django, AutomatedRE pulls emails from a connected Mailchimp list and submits them to TripAdvisor
             Review Express.
           </p>
