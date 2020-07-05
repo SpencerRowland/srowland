@@ -5,6 +5,10 @@
     padding: 2rem 2rem 2rem 2rem;
 }
 
+.index .main {
+    display: flex;
+}
+
 @media (min-width: 640px) {
     .main {
         padding: 2rem 10rem 2rem 5rem;

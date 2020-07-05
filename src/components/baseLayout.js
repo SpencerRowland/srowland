@@ -12,7 +12,8 @@ const headerLinkStyle = {
 }
 
 const BaseLayout = ({children}) => (
-  <div className={BaseLayoutStyles.main}>
+  // <div className={BaseLayoutStyles.main}>
+  <div className={`baseLayoutIndex ${BaseLayoutStyles.main}`}>
     <Helmet
       link={[
         { rel: 'icon', type: 'image/png', sizes: "16x16", href: `${favicon16}` },
