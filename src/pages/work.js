@@ -72,6 +72,22 @@ export default ({data}) => (
           </ul>
         </li>
 
+        {/* <li>
+          <h3>
+            <a href="#">Other Experience</a>
+          </h3>
+          <ul class="work">
+            <li>Intern for Norwegian law firm (Advokat Schjødt)</li>
+            <li>Staff Counselor at Eagle's Landing Camp</li>
+            <li>Front Desk Assistant at MTSU Recreation Center</li>
+            <li>Student Ambassador at MTSU Financial Aid</li>
+            <li>Sewanee Financial Aid (Work Study)</li>
+            <li>Sewanee Library (Work Study)</li>
+            <li>Waiter at Santa Fe</li>
+            <li>Cashier, Bagger, Stocker at Smith's Grocery</li>
+          </ul>
+        </li> */}
+
       </ul>
     </div>
     <div className="contact">
