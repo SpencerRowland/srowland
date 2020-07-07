@@ -1669,6 +1669,7 @@ font-weight: normal;
         background-position: top;
         background-size: auto auto;
         margin-bottom: 0px !important;
+        padding-bottom: 1px;
     }
 
     .logo {
@@ -3360,7 +3361,7 @@ font-weight: normal;
     .trusted {
         margin-left: auto;
         margin-right: auto;
-        margin-top: 20px;
+        // margin-top: 20px;
         max-width: 850px;
         display: block;
         padding-left: 0;
@@ -3368,7 +3369,7 @@ font-weight: normal;
     }
 
 
-    .trusted ul {
+    ul.trusted {
         padding: 0;
         list-style: none;
         margin: 0 auto;
@@ -3376,10 +3377,11 @@ font-weight: normal;
         padding-bottom: 20px;
     }
 
-    .trusted ul li {
+    ul.trusted li {
         max-width: 125px;
         display: inline-block;
-        margin: 0px 30px;
+        // margin: 0px 30px;
+        margin: 30px;
     }
 
     .trusted img {
@@ -3399,7 +3401,7 @@ font-weight: normal;
 
     @media (max-width: 400px) {
         
-        .trusted ul li {
+        ul.trusted li {
             max-width: 90px;
         }
         
@@ -3853,6 +3855,7 @@ font-weight: normal;
         text-align: center;
         padding-bottom: 40px;
         font-size: 15px;
+        margin-bottom: 0;
     }
 
     .more-questions p a {

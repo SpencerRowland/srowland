@@ -28,8 +28,24 @@ const TeambuildingPage = () => (
 
         <div className="row margin-adjust teambuilding-usedby-bg">
             <p className="teambuilding-usedby">used by amazing companies like...</p>
+            <ul className="trusted">
+                <li>
+                    <img src={asurionImage}/>
+                </li>
+                <li>
+                    <img src={walgreensImage}/>
+                </li>
+                <li className="hca-custom">
+                    <img src={hcaImage}/>
+                </li>
+                <li>
+                    <img src={microsoftImage}/>
+                </li>
+            </ul>
             <div className="teambuilding-trusted-container">
                 <div className="trusted trusted-top col-sm-6 col-xs-12">
+                </div>
+                {/* <div className="trusted trusted-top col-sm-6 col-xs-12">
                     <ul>
                         <li>
                             <img src={asurionImage}/>
@@ -48,7 +64,7 @@ const TeambuildingPage = () => (
                             <img src={hcaImage}/>
                         </li>
                     </ul>
-                </div>
+                </div> */}
             </div>
             
         </div>
