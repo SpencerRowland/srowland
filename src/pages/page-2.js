@@ -8,7 +8,6 @@ const SecondPage = () => (
     <h1>Hi from the second page</h1>
     <p>Welcome to page 2</p>
     <div style={{width: "500px", height: "500px"}}>
-      <script async type="text/javascript" src="https://www.escapekit.co/lbwidget.js?lid=x0sgb9gg"></script>
     </div>
     <Link to="/">Go back to the homepage</Link>
   </BaseLayout>
