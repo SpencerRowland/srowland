@@ -49,7 +49,7 @@ export default ({data}) => (
       </li>
       <li>
         Embeddable widget allows users to install and customize the <a href="https://demo.escapekit.co/exy79pag/leaderboards/" target="_blank">leaderboard</a> on
-        their website. See it in action on my personal site <a href="http://127.0.0.1:8000/leaderboard" target="_blank">here</a>.
+        their website. See it in action on my personal site <a href="https://www.spencerrowland.com/leaderboard" target="_blank">here</a>.
       </li>
       <li>
         <a href="https://demo.escapekit.co/insights/" target="_blank">Data visualization</a> using Chart.js
