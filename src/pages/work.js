@@ -7,8 +7,30 @@ import Img from "gatsby-image"
 export default ({data}) => (
   <BaseLayout>
     <Helmet>
-        <title>Spencer Rowland</title>
+        <title>Work | Spencer Rowland</title>
     </Helmet>
+
+    <div className="bio">
+      <h1>Problem solver...<br/>preferrably with code</h1>
+      {/* <Img fixed={data.headshot.childImageSharp.fixed} className="headShot"/>
+      <p>
+        Hey, I'm Spencer Rowland, a full-stack developer. I fell in love with programming as an actuary when writing macros
+        in Excel and I've been building ever since. I primarily work with Python/Django and Javascript.
+      </p>
+      <p>
+        My mission is to build things people love to use...whether that's on the internet or in the real world.
+      </p> */}
+      <p>
+        Hey, I'm Spencer Rowland, a software developer. I fell in love with programming as
+        an actuary while writing macros in Excel and have been building ever since.
+      </p>
+      <p>
+        I primarily work with Python/Django and React and have been focused on building
+        tools for the escape room industry since 2014. Now looking for greener pastures
+        in response to COVID-19.
+      </p>
+    </div>
+    
     <div className="work">
       <h2>Work Experience</h2>
       <ul>
@@ -72,6 +94,12 @@ export default ({data}) => (
           </ul>
         </li>
 
+        <li>
+          <h3>
+            <a href="/projects">View My Projects</a>
+          </h3>
+        </li>
+
         {/* <li>
           <h3>
             <a href="#">Other Experience</a>
@@ -93,7 +121,8 @@ export default ({data}) => (
     <div className="contact">
       <h2>Get in touch</h2>
       <p>
-        Follow me on <a href="https://twitter.com/spencerowland" target="_blank" rel="noopener noreferrer">Twitter</a> or email me at jsrowland10@gmail.com.
+        Follow me on <a href="https://twitter.com/spencerowland" target="_blank" rel="noopener noreferrer">Twitter</a> or
+        email me at <a href="mailto:jsrowland10@gmail.com">jsrowland10@gmail.com</a>.
       </p>
     </div>
   </BaseLayout>

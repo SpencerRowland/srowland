@@ -7,21 +7,11 @@ import Img from "gatsby-image"
 export default ({data}) => (
   <BaseLayout>
     <Helmet>
-        <title>Spencer Rowland</title>
+        <title>Projects | Spencer Rowland</title>
     </Helmet>
-    <div className="bio">
-      <h1>Problem solver...<br/>preferrably with code</h1>
-      <Img fixed={data.headshot.childImageSharp.fixed} className="headShot"/>
-      <p>
-        Hey, I'm Spencer Rowland, a full-stack developer. I fell in love with programming as an actuary when writing macros
-        in Excel and I've been building ever since. I primarily work with Python/Django and Javascript.
-      </p>
-      <p>
-        My mission is to build things people love to use...whether that's on the internet or in the real world.
-      </p>
-    </div>
+
     <div className="projects">
-      <h2>Projects I've Built</h2>
+      <h2>Projects</h2>
       <ul>
         <li>
           <h3>
@@ -47,7 +37,7 @@ export default ({data}) => (
         <li>
           <h3>
             <a href="/eenash/home" target="_blank">Escape Experience - Nashville</a>
-            <span>Co-founded in 2015</span>
+            <span>Co-founded in 2015, now closed due to COVID</span>
           </h3>
           <p>
             The website for my escape room business was my first project to see any type of real traffic. The business site has
@@ -55,12 +45,27 @@ export default ({data}) => (
             a smattering of JavaScript and JQuery. Its current iteration is in React with the help of Gatsby.
           </p>
         </li>
+        <li>
+          <h3>
+            <a href="https://heavenlyvalettrash.com/" target="_blank">Heavenly Valet Trash</a>
+          </h3>
+          <p>
+            A simple static website for a friend’s business. Built and designed from scratch and
+            joyfully hosted on Netlify.
+          </p>
+        </li>
+        <li>
+          <h3>
+            <a href="/work">View My Work</a>
+          </h3>
+        </li>
       </ul>
     </div>
     <div className="contact">
       <h2>Get in touch</h2>
       <p>
-        Follow me on <a href="https://twitter.com/spencerowland" target="_blank" rel="noopener noreferrer">Twitter</a> or email me at sr [at] spencerrowland.com.
+        Follow me on <a href="https://twitter.com/spencerowland" target="_blank" rel="noopener noreferrer">Twitter</a> or
+        email me at <a href="mailto:jsrowland10@gmail.com">jsrowland10@gmail.com</a>.
       </p>
     </div>
   </BaseLayout>

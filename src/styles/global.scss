@@ -84,6 +84,14 @@
         }
 
     }
+    &.leaderboard {
+        .baseLayoutIndex {
+            padding: 2rem 5rem 2rem 5rem;
+            @media (max-width: 640px) {
+                padding: 2rem 2rem 2rem 2rem;
+            }
+        }
+    }
     * {
         box-sizing: border-box;
     }
