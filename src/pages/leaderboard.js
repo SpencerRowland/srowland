@@ -9,7 +9,7 @@ export default ({data}) => (
     <Helmet>
         <title>Leaderboard | Spencer Rowland</title>
         <body class="base-layout leaderboard"></body>
-        <script async type="text/javascript" src="https://www.escapekit.co/lbwidget-v2.js?lid=9rx23lxq"></script>
+        <script async type="text/javascript" src="https://demo.escapekit.co/lbwidget-v2.js?lid=exy79pag"></script>
     </Helmet>
     
     <div className="bio">
