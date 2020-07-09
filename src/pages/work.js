@@ -122,7 +122,7 @@ export default ({data}) => (
       <h2>Get in touch</h2>
       <p>
         Follow me on <a href="https://twitter.com/spencerowland" target="_blank" rel="noopener noreferrer">Twitter</a> or
-        email me at <a href="mailto:jsrowland10@gmail.com">jsrowland10@gmail.com</a>.
+        email me at <a href="mailto:sr@spencerrowland.com">sr@spencerrowland.com</a>.
       </p>
     </div>
   </BaseLayout>
