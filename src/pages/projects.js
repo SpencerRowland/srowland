@@ -37,7 +37,7 @@ export default ({data}) => (
         <li>
           <h3>
             <a href="/eenash/home" target="_blank">Escape Experience - Nashville</a>
-            <span>Co-founded in 2015, now closed due to COVID</span>
+            <span>Co-founded in 2015, sold in 2019</span>
           </h3>
           <p>
             The website for my escape room business was my first project to see any type of real traffic. The business site has

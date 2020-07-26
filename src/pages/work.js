@@ -26,8 +26,7 @@ export default ({data}) => (
       </p>
       <p>
         I primarily work with Python/Django and React and have been focused on building
-        tools for the escape room industry since 2014. Now looking for greener pastures
-        in response to COVID-19.
+        tools for the escape room industry since 2014.
       </p>
     </div>
     
@@ -51,7 +50,7 @@ export default ({data}) => (
             <a href="/eenash/home" target="_blank">Escape Experience</a>
             <span>Co-Owner and General Manager</span>
           </h3>
-          <h4>NASHVILLE/CHATTANOOGA, TN &nbsp;|&nbsp; DECEMBER 2014 - CLOSED DUE TO COVID</h4>
+          <h4>NASHVILLE/CHATTANOOGA, TN &nbsp;|&nbsp; DECEMBER 2014 - SOLD IN 2019</h4>
           <ul class="work">
             <li>Co-owner of escape room business with two locations</li>
             <li>Nominated for Top 10 escape rooms in the country (USA Today)</li>
