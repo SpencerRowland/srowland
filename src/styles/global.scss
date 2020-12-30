@@ -1,4 +1,13 @@
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    margin: 0;
+}
+
 .base-layout {
     margin: 0;
     background-color: #1a202c;

@@ -1,6 +1,5 @@
 import React from "react"
 import BaseLayout from "../components/baseLayout"
-import Img from "gatsby-image"
 import { Helmet } from "react-helmet"
 
 export default ({data}) => (

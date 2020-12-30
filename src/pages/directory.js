@@ -35,7 +35,7 @@ class Map extends Component {
     const markers = markerData.map((row, index) => {
       return (
         <Marker latitude={row.latitude} longitude={row.longitude}>
-          <img className='marker' src={MapMarker}/>
+          <img className='marker' src={MapMarker} alt="map-marker"/>
         </Marker>
       )
     })

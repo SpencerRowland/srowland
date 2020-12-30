@@ -51,18 +51,19 @@ const ContactPage = () => (
                         </li>
                         
                         <li className="contact-details-social">
-                            <a target="_blank" href="https://www.facebook.com/EscapeExperienceNashville/">
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/EscapeExperienceNashville/">
                                 <FontAwesomeIcon icon={['fab', 'facebook-f']}/>
                             </a>
-                            <a target="_blank" href="https://twitter.com/EscapeExpNash">
+                            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/EscapeExpNash">
                                 <FontAwesomeIcon icon={['fab', 'twitter']}/>
                             </a>
-                            <a target="_blank" href="https://www.instagram.com/escapeexperiencenashville/">
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/escapeexperiencenashville/">
                                 <FontAwesomeIcon icon={['fab', 'instagram']}/>
                             </a>
                         </li>
                         <li className="driving-directions">
-                            <a className="driving-directions-link" href="#">Driving Directions</a>
+                            {/* eslint-disable-next-line */}
+                            <a className="driving-directions-link" rel="noopener noreferrer" href="#">Driving Directions</a>
                         </li>
                     </ul>
                 </div>
@@ -73,7 +74,7 @@ const ContactPage = () => (
                     </div>
 
                 
-                    <form role="form" id="contactForm" method="post">
+                    <form id="contactForm" method="post">
                         <div className="form-group">
                             <div className="form-fields">
                                 <input type="text" className="form-control" id="name" name="name" placeholder="Name" value="" required/>

@@ -11,6 +11,7 @@ const DesktopHeader = () => (
             <div className="top-bar-left">501 Union Street • Nashville, TN</div>
             <div className="top-bar-middle">Call Today <FontAwesomeIcon icon="phone"/> (615) 891-7929</div>
             <div className="top-bar-right">
+                {/* eslint-disable-next-line */}
                 <a href="#" className="gift"><FontAwesomeIcon icon="gift"/> Buy Gift Card</a>
             </div>
         </div>
@@ -43,7 +44,8 @@ const DesktopHeader = () => (
                 </li>
 
                 <li className="desktop-header-book-now">
-                <a href="#">Book Now</a>
+                    {/* eslint-disable-next-line */}
+                    <a href="#">Book Now</a>
                 </li>
             </ul>
             </div>

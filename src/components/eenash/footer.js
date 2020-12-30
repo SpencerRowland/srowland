@@ -1,11 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import headerLogo from '../../images/eenash/headerLogo.png'
-
-// const phoneIconPadding = {
-//     margin: '0 1.711px',
-// }
 
 const mapMarkerIconPadding = {
     width: '16px',
@@ -39,8 +34,11 @@ const Footer = () => (
                 <div class="col-md-4 column">
                     <h4>Gift Cards &amp; Vouchers</h4>
                     <ul class="list-unstyled">
+                        {/* eslint-disable-next-line */}
                         <li><span><FontAwesomeIcon icon="gift"/><a class="footer-text footer-text-link" href="#">Buy Gift Card</a></span></li>
+                        {/* eslint-disable-next-line */}
                         <li><span><FontAwesomeIcon icon="gift"/><a class="footer-text footer-text-link" href="#">Buy Printable Voucher</a></span></li>
+                        {/* eslint-disable-next-line */}
                         <li><span><FontAwesomeIcon icon="gift"/><a class="footer-text footer-text-link" href="#">Redeem Voucher</a></span></li>
                     </ul>
                 </div>
@@ -48,7 +46,7 @@ const Footer = () => (
                 <div class="col-md-4 column">
                     <h4>Locations</h4>
                     <ul class="list-unstyled">
-                        <li><span><FontAwesomeIcon icon="train"/><a class="footer-text footer-text-link" href="https://escapeexperience.com/chattanooga/" target="_blank">Chattanooga</a></span></li>
+                        <li><span><FontAwesomeIcon icon="train"/><a class="footer-text footer-text-link" href="https://escapeexperience.com/chattanooga/" target="_blank" rel="noopener noreferrer">Chattanooga</a></span></li>
                         <li><span><FontAwesomeIcon icon="music"/><Link className="footer-text footer-text-link" to="/eenash/home">Nashville</Link></span></li>
                     </ul>
                 </div>

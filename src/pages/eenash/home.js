@@ -68,6 +68,7 @@ const HomePage = ({children}) => (
 
     <div className="row book-now-row">
       <div className="book-now-row-button book-now-button">
+        {/* eslint-disable-next-line */}
         <a href="#">Buy Gift Card</a>
       </div>
     </div>
@@ -108,7 +109,8 @@ const HomePage = ({children}) => (
                         <img alt="Escape Experience Nashville - C-Block Prison Room" src={cblockImage}/>
                     </div>
                     <div className="escape-room-image-bottom">
-                            <a href="#">BOOK C-BLOCK</a>
+                      {/* eslint-disable-next-line */}
+                      <a href="#">BOOK C-BLOCK</a>
                     </div>
                     <p className="sub-title">Falsely Accused.<br/>Redemption Awaits.</p>
                     <div className="learn-more-button">
@@ -134,7 +136,8 @@ const HomePage = ({children}) => (
                       <img alt="Escape Experience Nashville - The Inheritance Mystery Escape" src={inheritanceImage}/>
                     </div>
                     <div className="escape-room-image-bottom">
-                            <a href="#">BOOK THE INHERITANCE</a>
+                      {/* eslint-disable-next-line */}
+                      <a href="#">BOOK THE INHERITANCE</a>
                     </div>
                     <p className="sub-title">Claim What Is Rightfully Yours<br/>Before Someone Else Does</p>
                     <div className="learn-more-button">
@@ -164,10 +167,8 @@ const HomePage = ({children}) => (
                       <img alt="Escape Experience Nashville - Vaccine Thriller Escape" src={vaccineImage}/>
                     </div>
                     <div className="escape-room-image-bottom">
-                            <a href="#">BOOK VACCINE</a>
-                            
-                        
-                            
+                      {/* eslint-disable-next-line */}
+                      <a href="#">BOOK VACCINE</a>
                     </div>
                     <p className="sub-title">Save Yourself<br/>Along With The Rest Of Humanity</p>
                     <div className="learn-more-button">
@@ -290,7 +291,7 @@ const HomePage = ({children}) => (
       <p>Conveniently located in the Arts District of Downtown Nashville, the Escape Experience is within walking distance of Broadway and all the popular Nashville venues and activities. </p>
       
       <p class="adr">
-          <a href="https://www.google.com/maps/place/Escape+Experience+-+Nashville+Escape+Games/@36.1642333,-86.7816686,17z/data=!4m2!3m1!1s0x8864665872ed33e7:0x20ff8e50dec3d247" target="_blank">
+          <a href="https://www.google.com/maps/place/Escape+Experience+-+Nashville+Escape+Games/@36.1642333,-86.7816686,17z/data=!4m2!3m1!1s0x8864665872ed33e7:0x20ff8e50dec3d247" target="_blank" rel="noopener noreferrer">
               <strong>Escape Experience - Nashville</strong><br/>
               <span class="street-address">501 Union Street</span><br/>
               <span class="locality">Nashville</span>,  

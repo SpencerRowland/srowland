@@ -30,16 +30,16 @@ const TeambuildingPage = () => (
             <p className="teambuilding-usedby">used by amazing companies like...</p>
             <ul className="trusted">
                 <li>
-                    <img src={asurionImage}/>
+                    <img src={asurionImage} alt="Asurion"/>
                 </li>
                 <li>
-                    <img src={walgreensImage}/>
+                    <img src={walgreensImage} alt="Walgreens"/>
                 </li>
                 <li className="hca-custom">
-                    <img src={hcaImage}/>
+                    <img src={hcaImage} alt="HCA"/>
                 </li>
                 <li>
-                    <img src={microsoftImage}/>
+                    <img src={microsoftImage} alt="Microsoft"/>
                 </li>
             </ul>
             <div className="teambuilding-trusted-container">
@@ -89,7 +89,7 @@ const TeambuildingPage = () => (
                     <h2 className="mobile-section-header promo-video-two-lines">Peek inside our<br/>Escape Experiences</h2>
                     <div className="promo-video-container">
                         <div className="embed-responsive embed-responsive-16by9">
-                            <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/o-1jchmCJpU"></iframe>
+                            <iframe title="Escape Experience Promo Video" className="embed-responsive-item" src="https://www.youtube.com/embed/o-1jchmCJpU"></iframe>
                         </div>
                     </div>
                 </div>
@@ -134,7 +134,7 @@ const TeambuildingPage = () => (
                 <p>Looking to book your next team building event? Then you're in the right place.<br/><br/>Complete the form below or call us at (615) 891-7929 and you're one step closer to an unforgettable experience for you and your team.</p>
             </div> 
 
-            <form role="form" id="contactForm" className="teambuilding-contact-form" method="post" action="">
+            <form id="contactForm" className="teambuilding-contact-form" method="post" action="">
                 <div className="form-group teambuilding-form">
                     <div className="form-fields">
                         <input type="text" className="form-control teambuilding-form-control" id="name" name="name" placeholder="Name" value="" required/>

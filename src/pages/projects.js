@@ -2,7 +2,6 @@ import React from "react"
 import BaseLayout from "../components/baseLayout"
 import { graphql, Link } from "gatsby"
 import { Helmet } from "react-helmet"
-import Img from "gatsby-image"
 
 export default ({data}) => (
   <BaseLayout>
@@ -47,7 +46,7 @@ export default ({data}) => (
         </li>
         <li>
           <h3>
-            <a href="https://heavenlyvalettrash.com/" target="_blank">Heavenly Valet Trash</a>
+            <a href="https://heavenlyvalettrash.com/" target="_blank" rel="noopener noreferrer">Heavenly Valet Trash</a>
           </h3>
           <p>
             A simple static website for a friend’s business. Built and designed from scratch and

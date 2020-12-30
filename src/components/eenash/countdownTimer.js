@@ -1,6 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
-
 
 
 class CountdownTimer extends React.Component {
@@ -32,7 +30,7 @@ class CountdownTimer extends React.Component {
     componentDidMount() {
         let timeLeftVar = this.secondsToTime(this.state.seconds);
         this.setState({ time: timeLeftVar });
-        if (this.timer == 0 && this.state.seconds > 0) {
+        if (this.timer === 0 && this.state.seconds > 0) {
             this.timer = setInterval(this.countDown, 1000);
         }
     }
@@ -52,7 +50,7 @@ class CountdownTimer extends React.Component {
       });
       
       // Check if we're at zero.
-      if (seconds == 0) { 
+      if (seconds === 0) { 
         clearInterval(this.timer);
       }
     }

@@ -29,19 +29,14 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Homemade Apple`,
-            variants: [`400`]
-          },
-          {
-            family: `Playfair Display`,
-            variants: [`400`, `700`]
-          },
+          `Rubik\:300,500`,
+          `Merriweather\:300`,
         ],
-      },
+        display: 'swap'
+      }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

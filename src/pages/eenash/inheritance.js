@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import EeNashLayout from "../../components/eenash/eeNashLayout"
 import MailingListForm from "../../components/eenash/mailingListForm"
 import InheritanceImageSlider from "../../components/eenash/inheritanceImageSlider"
@@ -124,6 +123,7 @@ const InheritancePage = () => (
             <div className="overlay">
                 <div className="book-game-wrapper">
                     <div className="experience-page-book-button">
+                        {/* eslint-disable-next-line */}
                         <a href="#">Book The Inheritance</a>
                     </div>
                 </div>

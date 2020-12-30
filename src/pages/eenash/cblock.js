@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import EeNashLayout from "../../components/eenash/eeNashLayout"
 import MailingListForm from "../../components/eenash/mailingListForm"
 import CblockImageSlider from "../../components/eenash/cblockImageSlider"
@@ -125,6 +124,7 @@ const CblockPage = () => (
             <div className="overlay">
                 <div className="book-game-wrapper">
                     <div className="experience-page-book-button">
+                        {/* eslint-disable-next-line */}
                         <a href="#">Book C-Block</a>
                     </div>
                 </div>

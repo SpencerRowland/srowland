@@ -22,16 +22,16 @@ class CblockImageSlider extends React.Component {
     return (
       <Slider {...settings}>
         <div>
-            <img src={studyMap}/>
+            <img src={studyMap} alt="study-map"/>
         </div>
         <div>
-            <img src={lab}/>
+            <img src={lab} alt="lab"/>
         </div>
         <div>
-            <img src={willLight}/>
+            <img src={willLight} alt="will"/>
         </div>
         <div>
-            <img src={infinityMirror}/>
+            <img src={infinityMirror} alt="infinity-mirror"/>
         </div>
       </Slider>
     );

@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import { Collapse } from 'reactstrap';
 
-const faqPanelStyle = {
-
-}
 
 class CollapsiblePanel extends Component {
     constructor(props) {
@@ -21,7 +18,8 @@ class CollapsiblePanel extends Component {
         <div className="panel panel-default">
             <div className="panel-heading" role="tab">
                 <h4 className="panel-title faq-title">
-                <a onClick={this.toggle}>
+                {/* eslint-disable-next-line */}
+                <a onClick={this.toggle} href="#">
                     {this.props.header}
                 </a>
                 </h4>

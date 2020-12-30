@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import EeNashLayout from "../../components/eenash/eeNashLayout"
 import MailingListForm from "../../components/eenash/mailingListForm"
 import VaccineHeroImage from "../../images/eenash/img/vaccine_title_text_150Y.png"
@@ -110,16 +109,16 @@ const VaccinePage = () => (
                         <h3>Peek Inside Vaccine</h3>
                         <div class="slider-container">
                             <div>
-                                <img src="img/study-map-425.jpg"/>
+                                <img src="img/study-map-425.jpg" alt="map"/>
                             </div>
                             <div>
-                                <img src="img/lab-425.jpg"/>
+                                <img src="img/lab-425.jpg" alt="lab"/>
                             </div>
                             <div>
-                                <img src="img/the-will-light-425.jpg"/>
+                                <img src="img/the-will-light-425.jpg" alt="the-will"/>
                             </div>
                             <div>
-                                <img src="img/infinity-mirror-425.jpg"/>
+                                <img src="img/infinity-mirror-425.jpg" alt="infinity-mirror"/>
                             </div>
                         </div>
                     </div>
@@ -134,6 +133,7 @@ const VaccinePage = () => (
             <div class="overlay">
                 <div class="book-game-wrapper">
                     <div class="experience-page-book-button">
+                        {/* eslint-disable-next-line */}
                         <a href="#">Book Vaccine</a>
                     </div>
                 </div>

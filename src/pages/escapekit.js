@@ -1,6 +1,5 @@
 import React from "react"
 import BaseLayout from "../components/baseLayout"
-import Img from "gatsby-image"
 import { Helmet } from "react-helmet"
 
 export default ({data}) => (
@@ -35,24 +34,24 @@ export default ({data}) => (
         on PythonAnywhere with PostgreSQL.
       </li>
       <li>
-        <a href="https://demo.escapekit.co/waiver/on/exy79pag/" target="_blank">Fully responsive digital waiver</a> with
+        <a href="https://demo.escapekit.co/waiver/on/exy79pag/" target="_blank" rel="noopener noreferrer">Fully responsive digital waiver</a> with
         wide browser compatibility and a focus on design. Heavy use of css transitions while
-        keeping an eye on performance to preserve smooth transitions. <a href="https://demo.escapekit.co/waivers/1/" target="_blank">Backend</a> allows
+        keeping an eye on performance to preserve smooth transitions. <a href="https://demo.escapekit.co/waivers/1/" target="_blank" rel="noopener noreferrer">Backend</a> allows
         users to customize style, input fields, form validation and text. Generates pdf of
         waiver and emails to customers after signing. Available in English, French and Spanish.
       </li>
       <li>
-        A link to the <a href="https://demo.escapekit.co/debrief/exy79pag/190a63ef/" target="_blank">“debrief page”</a> (built
+        A link to the <a href="https://demo.escapekit.co/debrief/exy79pag/190a63ef/" target="_blank" rel="noopener noreferrer">“debrief page”</a> (built
         with React and Material UI) gets emailed and texted to customers after their game.
-        The <a href="https://demo.escapekit.co/debrief/exy79pag/builder/" target="_blank">debrief page builder</a> (desktop
+        The <a href="https://demo.escapekit.co/debrief/exy79pag/builder/" target="_blank" rel="noopener noreferrer">debrief page builder</a> (desktop
         only) allows users to customize the content and text of their debrief page.
       </li>
       <li>
-        Embeddable widget allows users to install and customize the <a href="https://demo.escapekit.co/exy79pag/leaderboards/" target="_blank">leaderboard</a> on
-        their website. See it in action on my personal site <a href="https://www.spencerrowland.com/leaderboard" target="_blank">here</a>.
+        Embeddable widget allows users to install and customize the <a href="https://demo.escapekit.co/exy79pag/leaderboards/" target="_blank" rel="noopener noreferrer">leaderboard</a> on
+        their website. See it in action on my personal site <a href="https://www.spencerrowland.com/leaderboard" target="_blank" rel="noopener noreferrer">here</a>.
       </li>
       <li>
-        <a href="https://demo.escapekit.co/insights/" target="_blank">Data visualization</a> using Chart.js
+        <a href="https://demo.escapekit.co/insights/" target="_blank" rel="noopener noreferrer">Data visualization</a> using Chart.js
         and data analysis using NumPy and pandas.
       </li>
       <li>
@@ -81,8 +80,8 @@ export default ({data}) => (
       </li> */}
     </ul>
     <div className="buttons">
-      <a href="https://www.escapekit.co/" target="_blank">View Marketing Site</a>
-      <a href="https://www.escapekit.co/waiver/preview/dark-mode/" target="_blank">View Example Waiver</a>
+      <a href="https://www.escapekit.co/" target="_blank" rel="noopener noreferrer">View Marketing Site</a>
+      <a href="https://www.escapekit.co/waiver/preview/dark-mode/" target="_blank" rel="noopener noreferrer">View Example Waiver</a>
     </div>
   </BaseLayout>
 )

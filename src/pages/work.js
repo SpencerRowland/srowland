@@ -2,7 +2,6 @@ import React from "react"
 import BaseLayout from "../components/baseLayout"
 import { graphql, Link } from "gatsby"
 import { Helmet } from "react-helmet"
-import Img from "gatsby-image"
 
 export default ({data}) => (
   <BaseLayout>
@@ -60,6 +59,7 @@ export default ({data}) => (
 
         <li>
           <h3>
+            {/* eslint-disable-next-line */}
             <a href="#">Bryan Pendleton Swats & McAllister</a>
             <span>Actuarial Analyst</span>
           </h3>
@@ -72,6 +72,7 @@ export default ({data}) => (
 
         <li>
           <h3>
+            {/* eslint-disable-next-line */}
             <a href="#">Gabriel Roeder Smith & Company</a>
             <span>Actuarial Analyst</span>
           </h3>
@@ -84,6 +85,7 @@ export default ({data}) => (
 
         <li>
           <h3>
+            {/* eslint-disable-next-line */}
             <a href="#">State Farm</a>
             <span>Claims Representative</span>
           </h3>

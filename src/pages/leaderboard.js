@@ -1,8 +1,7 @@
 import React from "react"
 import BaseLayout from "../components/baseLayout"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import { Helmet } from "react-helmet"
-import Img from "gatsby-image"
 
 export default ({data}) => (
   <BaseLayout>

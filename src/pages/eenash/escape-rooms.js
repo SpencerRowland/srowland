@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 import EeNashLayout from "../../components/eenash/eeNashLayout"
 import { Helmet } from "react-helmet"
 
-import mainLogo from '../../images/eenash/img/escape-experience-nashville-logo.png'
 import cblockImage from '../../images/eenash/img/escape-experience-c-block-prison.jpg'
 import inheritanceImage from '../../images/eenash/img/escape-experience-the-inheritance.jpg'
 import vaccineImage from '../../images/eenash/img/escape-experience-vaccine.jpg'
@@ -35,7 +34,8 @@ const EscapeRoomsPage = ({children}) => (
                             <img alt="Escape Experience Nashville - C-Block Prison Room" src={cblockImage}/>
                         </div>
                         <div className="escape-room-image-bottom">
-                                <a href="#">BOOK C-BLOCK</a>
+                            {/* eslint-disable-next-line */}
+                            <a href="#">BOOK C-BLOCK</a>
                         </div>
                         <p className="sub-title">Falsely Accused.<br/>Redemption Awaits.</p>
                         <div className="learn-more-button">
@@ -61,7 +61,8 @@ const EscapeRoomsPage = ({children}) => (
                             <img alt="Escape Experience Nashville - The Inheritance Mystery Escape" src={inheritanceImage}/>
                         </div>
                         <div className="escape-room-image-bottom">
-                                <a href="#">BOOK THE INHERITANCE</a>
+                            {/* eslint-disable-next-line */}
+                            <a href="#">BOOK THE INHERITANCE</a>
                         </div>
                         <p className="sub-title">Claim What Is Rightfully Yours<br/>Before Someone Else Does</p>
                         <div className="learn-more-button">
@@ -91,10 +92,8 @@ const EscapeRoomsPage = ({children}) => (
                             <img alt="Escape Experience Nashville - Vaccine Thriller Escape" src={vaccineImage}/>
                         </div>
                         <div className="escape-room-image-bottom">
-                                <a href="#">BOOK VACCINE</a>
-                                
-                             
-                                
+                            {/* eslint-disable-next-line */}
+                            <a href="#">BOOK VACCINE</a>
                         </div>
                         <p className="sub-title">Save Yourself<br/>Along With The Rest Of Humanity</p>
                         <div className="learn-more-button">
@@ -123,7 +122,8 @@ const EscapeRoomsPage = ({children}) => (
           <div className="overlay">
               <div className="book-game-wrapper">
                   <div className="experience-page-book-button">
-                      <a href="#">Book Now</a>
+                    {/* eslint-disable-next-line */}
+                    <a href="#">Book Now</a>
                   </div>
               </div>
           </div> 
@@ -143,7 +143,7 @@ const EscapeRoomsPage = ({children}) => (
                           </div>
                           <div className="lp-reviews-footer">
                               <h4>Laura A.</h4>
-                              <a target="_blank" href="https://www.tripadvisor.com/Attraction_Review-g55229-d9820229-Reviews-Escape_Experience_Nashville-Nashville_Tennessee.html">
+                              <a target="_blank" href="https://www.tripadvisor.com/Attraction_Review-g55229-d9820229-Reviews-Escape_Experience_Nashville-Nashville_Tennessee.html" rel="noopener noreferrer">
                                   <img alt="TripAdvisor Reviews" src={tripadvisorLogo} className="lp-reviews-footer-tripadvisor"/>
                               </a>
                           </div>
@@ -156,7 +156,7 @@ const EscapeRoomsPage = ({children}) => (
                           </div>
                           <div className="lp-reviews-footer">
                               <h4>Eddie B.</h4>
-                              <a target="_blank" href="https://www.facebook.com/pg/EscapeExperienceNashville/reviews/">
+                              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/pg/EscapeExperienceNashville/reviews/">
                                   <img alt="Facebook Reviews" src={facebookLogo} className="lp-reviews-footer-facebook"/>
                               </a>
                           </div>
@@ -169,7 +169,7 @@ const EscapeRoomsPage = ({children}) => (
                           </div>
                           <div className="lp-reviews-footer">
                               <h4>Mark R.</h4>
-                              <a target="_blank" href="https://www.yelp.com/biz/escape-experience-nashville-nashville">
+                              <a target="_blank" rel="noopener noreferrer" href="https://www.yelp.com/biz/escape-experience-nashville-nashville">
                                   <img alt="Yelp Reviews" src={yelpLogo} className="lp-reviews-footer-yelp"/>
                               </a>
                           </div>

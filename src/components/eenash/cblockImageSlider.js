@@ -5,7 +5,6 @@ import prisonShot from '../../images/eenash/img/prison-shot-425.jpg'
 import mugShot from '../../images/eenash/img/mug-shot-425.jpg'
 import prisonFile from '../../images/eenash/img/prison-file-425.jpg'
 import woodenBox from '../../images/eenash/img/wooden-box-425.jpg'
-import specialMoments from '../../images/eenash/img/Special-Moments-Nashville-Escape-Games-comp.jpg'
 
 // https://github.com/akiran/react-slick
 
@@ -24,19 +23,19 @@ class CblockImageSlider extends React.Component {
     return (
       <Slider {...settings}>
         <div>
-            <img src={hallway}/>
+          <img src={hallway} alt="hallway"/>
         </div>
         <div>
-            <img src={prisonShot}/>
+          <img src={prisonShot} alt="prison"/>
         </div>
         <div>
-            <img src={mugShot}/>
+          <img src={mugShot} alt="mug-shot"/>
         </div>
         <div>
-            <img src={prisonFile}/>
+          <img src={prisonFile} alt="prison-file"/>
         </div>
         <div>
-            <img src={woodenBox}/>
+          <img src={woodenBox} alt="wooden-box"/>
         </div>
       </Slider>
     );
