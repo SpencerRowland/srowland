@@ -8,7 +8,7 @@ const IndexPage = ({data}) => (
   <BaseLayout>
     <Helmet>
         <title>Spencer Rowland</title>
-        <body class="base-layout index"></body>
+        <body className="base-layout index"></body>
     </Helmet>
     <div className="index-content">
       <Img fixed={data.headshot.childImageSharp.fixed} className="headShot"/>

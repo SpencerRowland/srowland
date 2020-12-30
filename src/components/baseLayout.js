@@ -21,7 +21,7 @@ const BaseLayout = ({children}) => (
         { rel: 'shortcut icon', type: 'image/png', href: `${favicon96}` },
       ]}
     >
-      <body class="base-layout"></body>
+      <body className="base-layout"></body>
     </Helmet>
     <header className={BaseLayoutStyles.header} role="banner">
       <Link style={headerLinkStyle} to="/">Spencer Rowland</Link>

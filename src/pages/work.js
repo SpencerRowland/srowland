@@ -50,7 +50,7 @@ export default ({data}) => (
             <span>Co-Owner and General Manager</span>
           </h3>
           <h4>NASHVILLE/CHATTANOOGA, TN &nbsp;|&nbsp; DECEMBER 2014 - SOLD IN 2019</h4>
-          <ul class="work">
+          <ul className="work">
             <li>Co-owner of escape room business with two locations</li>
             <li>Nominated for Top 10 escape rooms in the country (USA Today)</li>
             <li>Reached +$1 million in annual revenue across both locations at peak</li>
@@ -64,7 +64,7 @@ export default ({data}) => (
             <span>Actuarial Analyst</span>
           </h3>
           <h4>BRENTWOOD, TN &nbsp;|&nbsp; APRIL 2011 - APRIL 2015</h4>
-          <ul class="work">
+          <ul className="work">
             <li>Analyst for employee benefits consulting firm under Wells Fargo’s Institutional Retirement and Trust business</li>
             <li>Exceeded annual billing goals each year (at least 122% of goal)</li>
           </ul>
@@ -77,7 +77,7 @@ export default ({data}) => (
             <span>Actuarial Analyst</span>
           </h3>
           <h4>DENVER, CO &nbsp;|&nbsp; SEPTEMBER 2009 - MARCH 2011</h4>
-          <ul class="work">
+          <ul className="work">
             <li>Pension consulting firm serving clients primarily in the public sector</li>
             <li>Worked with valuation software written in FORTRAN</li>
           </ul>
@@ -90,7 +90,7 @@ export default ({data}) => (
             <span>Claims Representative</span>
           </h3>
           <h4>MURFREESBORO, TN &nbsp;|&nbsp; APRIL 2008 - SEPTEMBER 2009</h4>
-          <ul class="work">
+          <ul className="work">
             <li>Investigated, negotiated and settled third party bodily injury claims</li>
           </ul>
         </li>
@@ -105,7 +105,7 @@ export default ({data}) => (
           <h3>
             <a href="#">Other Experience</a>
           </h3>
-          <ul class="work">
+          <ul className="work">
             <li>Intern for Norwegian law firm (Advokat Schjødt)</li>
             <li>Staff Counselor at Eagle's Landing Camp</li>
             <li>Front Desk Assistant at MTSU Recreation Center</li>

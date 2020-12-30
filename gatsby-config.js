@@ -34,6 +34,7 @@ module.exports = {
         fonts: [
           `Rubik\:300,500`,
           `Merriweather\:300`,
+          `Homemade Apple\:400`,
         ],
         display: 'swap'
       }
