@@ -11,21 +11,12 @@ export default ({data}) => (
 
     <div className="bio">
       <h1>Problem solver...<br/>preferrably with code</h1>
-      {/* <Img fixed={data.headshot.childImageSharp.fixed} className="headShot"/>
       <p>
-        Hey, I'm Spencer Rowland, a full-stack developer. I fell in love with programming as an actuary when writing macros
-        in Excel and I've been building ever since. I primarily work with Python/Django and Javascript.
-      </p>
-      <p>
-        My mission is to build things people love to use...whether that's on the internet or in the real world.
-      </p> */}
-      <p>
-        Hey, I'm Spencer Rowland, a software developer. I fell in love with programming as
+        Hey, I'm Spencer Rowland, a software engineer. I fell in love with programming as
         an actuary while writing macros in Excel and have been building ever since.
       </p>
       <p>
-        I primarily work with Python/Django and React and have been focused on building
-        tools for the escape room industry since 2014.
+        I primarily work with Node/Express and Python/Django with React on the frontend.
       </p>
     </div>
     
@@ -49,7 +40,7 @@ export default ({data}) => (
             <a href="/eenash/home" target="_blank">Escape Experience</a>
             <span>Co-Owner and General Manager</span>
           </h3>
-          <h4>NASHVILLE/CHATTANOOGA, TN &nbsp;|&nbsp; DECEMBER 2014 - SOLD IN 2019</h4>
+          <h4>NASHVILLE/CHATTANOOGA, TN &nbsp;|&nbsp; DECEMBER 2014 - SOLD IN 2020</h4>
           <ul className="work">
             <li>Co-owner of escape room business with two locations</li>
             <li>Nominated for Top 10 escape rooms in the country (USA Today)</li>

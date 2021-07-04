@@ -21,10 +21,10 @@ export default ({data}) => (
       <div className='tags'>
         <span>Python</span>
         <span>Django</span>
-        <span>PostgreSQL</span>
         <span>JavaScript</span>
         <span>jQuery</span>
         <span>React</span>
+        <span>PostgreSQL</span>
         <span>SASS</span>
       </div>
     </div>
@@ -43,7 +43,7 @@ export default ({data}) => (
       <li>
         A link to the <a href="https://demo.escapekit.co/debrief/exy79pag/190a63ef/" target="_blank" rel="noopener noreferrer">“debrief page”</a> (built
         with React and Material UI) gets emailed and texted to customers after their game.
-        The <a href="https://demo.escapekit.co/debrief/exy79pag/builder/" target="_blank" rel="noopener noreferrer">debrief page builder</a> (desktop
+        The <a href="https://demo.escapekit.co/debrief/" target="_blank" rel="noopener noreferrer">debrief page builder</a> (desktop
         only) allows users to customize the content and text of their debrief page.
       </li>
       <li>
