@@ -25,6 +25,18 @@ export default ({data}) => (
       <ul>
         <li>
           <h3>
+            <Link to="https://theescapegame.com/">The Escape Game</Link>
+            <span>Software Engineer</span>
+          </h3>
+          <h4>February 2021 - Present</h4>
+          {/* <p>
+            Escape Kit began with the mission to make a better digital waiver for the escape room industry.
+            It has grown to become an automated marketing tool used by escape room businesses across the country.
+          </p> */}
+        </li>
+
+        <li>
+          <h3>
             <Link to="/escapekit">Escape Kit</Link>
             <span>Creator and solo developer</span>
           </h3>
