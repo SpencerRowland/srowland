@@ -14,8 +14,6 @@ export default ({data}) => (
       <p>
         Hey, I'm Spencer Rowland, a software engineer. I fell in love with programming as
         an actuary while writing macros in Excel and have been building ever since.
-      </p>
-      <p>
         I primarily work with Node/Express and Python/Django with React on the frontend.
       </p>
     </div>
@@ -25,7 +23,7 @@ export default ({data}) => (
       <ul>
         <li>
           <h3>
-            <Link to="https://theescapegame.com/">The Escape Game</Link>
+            <Link to="https://theescapegame.com/" target="_blank">The Escape Game</Link>
             <span>Software Engineer</span>
           </h3>
           <h4>February 2021 - Present</h4>
