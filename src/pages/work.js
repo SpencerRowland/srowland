@@ -26,7 +26,7 @@ export default ({data}) => (
             <Link to="https://theescapegame.com/" target="_blank">The Escape Game</Link>
             <span>Software Engineer</span>
           </h3>
-          <h4>February 2021 - Present</h4>
+          <h4>NASHVILLE, TN &nbsp;|&nbsp; February 2021 - Present</h4>
           {/* <p>
             Escape Kit began with the mission to make a better digital waiver for the escape room industry.
             It has grown to become an automated marketing tool used by escape room businesses across the country.
