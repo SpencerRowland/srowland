@@ -14,7 +14,7 @@ export default ({data}) => (
       <p>
         Hey, I'm Spencer Rowland, a software engineer. I fell in love with programming as
         an actuary while writing macros in Excel and have been building ever since.
-        I primarily work with Python/Django and Node/Express with React on the frontend.
+        I primarily work with Python/Django or Node/Express with React on the frontend.
       </p>
     </div>
     
